@@ -1,0 +1,48 @@
+.card{
+    width: 190px;
+    height: 270px;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    box-shadow: 0 0 11px rgba(0,0,0,0.75);
+    position: absolute;
+    border-radius: 10px;
+}
+
+.card:nth-of-type(2){
+    left: 240px;
+}
+
+.card:nth-of-type(3){
+    left: 480px;
+}
+
+.card:nth-of-type(4){
+    left: 240px;
+    top: 60px;
+}
+
+.card:nth-of-type(5){
+    left: 480px;
+    top: 60px;
+    background-image: url('bg2.png');
+    /* Z-index - ul este folosit pentru a schimba ordinea
+    elementelor pe axa Z (de la baza ecranului catre privirea
+    utilizatorului) */
+    z-index: 1;
+}
+
+.card:last-of-type{
+    left: 480px;
+    top: 120px;
+}
+
+/* cum cream un cerc */
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+}
